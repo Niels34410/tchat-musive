@@ -152,9 +152,8 @@ io.on('connection', function (socket) {
 });
 
 /**
- * Lancement du serveur en écoutant les connexions arrivant sur le port 3000
+ * Lancement du serveur en écoutant les connexions arrivant sur le port process.env.PORT
  */
-http.listen(3000, function () {
-  console.log('Server is listening on *:3000');
+http.listen(process.env.PORT, function () {
+  console.log('Server is listening on *:process.env.PORT');
 });
-server.listen(process.env.PORT || 3000);
