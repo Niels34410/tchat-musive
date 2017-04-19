@@ -157,3 +157,4 @@ io.on('connection', function (socket) {
 http.listen(3000, function () {
   console.log('Server is listening on *:3000');
 });
+server.listen(process.env.PORT || 3000);
