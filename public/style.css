@@ -76,11 +76,11 @@ section#chat #messages li.login {
 }
 section#chat #messages li span.username {
 	display: inline-block;
-	padding: 6px 10px;
-	margin-right: 5px;
+	padding: 1% 2%;
+	margin-right: 2%;
 	color: white;
 	background: blue;
-	border-radius: 5px;
+	border-radius: 15px;
 }
 section#chat #messages li span.info {
 	display: inline-block;
@@ -106,12 +106,14 @@ section#chat #users li.new {
     color: white;
 }
 section#chat #users li {
-    padding: 6px 10px;
-    margin: 10px 10px;
-    border-radius: 5px;
+    padding: 3px 5px;
+    margin: 5px 5px;
+    border-radius: 15px;
     border: 1px solid blue;
     color: black;
     transition: all 0.5s;
+    text-align: center;
+    font-size: 100%;
 }
 section#chat #users li span.typing {
     float: right;
