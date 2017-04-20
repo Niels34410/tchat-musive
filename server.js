@@ -56,7 +56,7 @@ io.on('connection', function (socket) {
     if (loggedUser !== undefined) {
       // Broadcast d'un 'service-message'
       var serviceMessage = {
-        text: 'User "' + loggedUser.username + '" disconnected',
+        text: 'Utilisateur "' + loggedUser.username + '" déconnecté',
         type: 'logout'
       };
       socket.broadcast.emit('service-message', serviceMessage);
@@ -94,11 +94,11 @@ io.on('connection', function (socket) {
       users.push(loggedUser);
       // Envoi et sauvegarde des messages de service
       var userServiceMessage = {
-        text: 'You logged in as "' + loggedUser.username + '"',
+        text: 'Vous êtes connecté en tant que "' + loggedUser.username + '"',
         type: 'login'
       };
       var broadcastedServiceMessage = {
-        text: 'User "' + loggedUser.username + '" logged in',
+        text: 'Utilisateur "' + loggedUser.username + '" connecté',
         type: 'login'
       };
       socket.emit('service-message', userServiceMessage);
@@ -155,5 +155,5 @@ io.on('connection', function (socket) {
  * Lancement du serveur en écoutant les connexions arrivant sur le port process.env.PORT
  */
 http.listen(process.env.PORT, function () {
-  console.log('Server is listening on *:process.env.PORT');
+  console.log('Server is listening on process.env.PORT');
 });
