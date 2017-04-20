@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: white;
+    cursor: default;
 }
 html, body, head {
     height: 100%;
@@ -67,9 +68,11 @@ section#chat #messages li:nth-child(odd) {
 }
 section#chat #messages li.logout {
 	background: #E5A6A6;
+	display: none;
 }
 section#chat #messages li.login {
 	background: #A8E5A6;
+	display: none;
 }
 section#chat #messages li span.username {
 	display: inline-block;
@@ -145,5 +148,4 @@ section#login button {
 	color: white;
 	font-size: 20px;
 	margin-top: 20px;
-	cursor: pointer;
 }
