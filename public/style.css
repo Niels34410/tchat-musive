@@ -43,7 +43,7 @@ section#chat form input {
 section#chat form button {
     width: 9%;
     height: 100%;
-    background: #e67e22;
+    background: blue;
     float: right;
     border: none;
     margin-right: 0.5%;
@@ -75,7 +75,7 @@ section#chat #messages li span.username {
 	padding: 6px 10px;
 	margin-right: 5px;
 	color: white;
-	background: #e67e22;
+	background: blue;
 	border-radius: 5px;
 }
 section#chat #messages li span.info {
@@ -83,7 +83,7 @@ section#chat #messages li span.info {
 	padding: 3px 10px;
 	margin-right: 5px;
 	color: white;
-	background: #e67e22;
+	background: green;
 	border-radius: 5px;
 }
 section#chat #users {
@@ -98,14 +98,14 @@ section#chat #users {
     border-left: 3px solid #eee;
 }
 section#chat #users li.new {
-    background: #e67e22;
+    background: blue;
     color: white;
 }
 section#chat #users li {
     padding: 6px 10px;
     margin: 10px 10px;
     border-radius: 5px;
-    border: 1px solid #e67e22;
+    border: 1px solid blue;
     color: black;
     transition: all 0.5s;
 }
@@ -138,7 +138,7 @@ section#login input#u:focus {
 	outline: none;
 }
 section#login button {
-	background: #e67e22;
+	background: blue;
 	border: none;
 	padding: 5px 80px;
 	color: white;
