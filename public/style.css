@@ -47,13 +47,13 @@ section#chat form button {
     float: right;
     border: none;
     margin-right: 0.5%;
-    font-size: 17px;
+    font-size: 80%;
     color: white;
 }
 section#chat #messages {
     list-style-type: none;
     display: inline-block;
-    width: calc(100% - 250px);
+    width: calc(100% - 25%);
     margin: 0;
     padding: 0;
     padding-bottom: 50px;
@@ -91,7 +91,7 @@ section#chat #users {
     position: fixed;
     vertical-align: top;
     overflow: auto;
-    width: 250px;
+    width: 25%;
     list-style-type: none;
     height: 100%;
     padding-bottom: 50px;
