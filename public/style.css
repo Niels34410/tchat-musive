@@ -36,19 +36,19 @@ section#chat form {
 section#chat form input {
     border: 0;
     padding: 5px 10px;
-    width: 90%;
+    width: 89%;
     height: 100%;
     margin-right: .5%;
 	font-size: 20px;
 }
 section#chat form button {
-    width: 9%;
+    width: 10%;
     height: 100%;
     background: blue;
     float: right;
     border: none;
     margin-right: 0.5%;
-    font-size: 100%;
+    font-size: 80%;
     color: white;
 }
 section#chat #messages {
