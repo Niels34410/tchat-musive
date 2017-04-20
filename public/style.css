@@ -38,13 +38,13 @@ section#chat form input {
     border: 0;
     padding: 5px 10px;
     width: 89%;
-    height: 100%;
+    height: 111%;
     margin-right: .5%;
 	font-size: 100%;
 }
 section#chat form button {
     width: 10%;
-    height: 100%;
+    height: 111%;
     background: blue;
     float: right;
     border: none;
@@ -150,4 +150,9 @@ section#login button {
 	color: white;
 	font-size: 20px;
 	margin-top: 20px;
+}
+img{	
+	width: 30px;
+	height: 30px;
+	background-color: blue;
 }
