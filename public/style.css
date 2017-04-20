@@ -39,7 +39,7 @@ section#chat form input {
     width: 89%;
     height: 100%;
     margin-right: .5%;
-	font-size: 20px;
+	font-size: 100%;
 }
 section#chat form button {
     width: 10%;
