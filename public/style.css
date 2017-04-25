@@ -66,14 +66,14 @@ section#chat #messages li {
 section#chat #messages li:nth-child(odd) {
     background: #eee;
 }
-section#chat #messages li.logout {
+/*section#chat #messages li.logout {
 	background: #E5A6A6;
 	display: none;
 }
 section#chat #messages li.login {
 	background: #A8E5A6;
 	display: none;
-}
+}*/
 section#chat #messages li span.username {
 	display: inline-block;
 	padding: 1% 2%;
@@ -118,7 +118,7 @@ section#chat #users li {
 section#chat #users li span.typing {
     float: right;
     font-style: italic;
-    color: #eee;
+    color: silver;
     display: none;
 }
 section#login {
